@@ -1,0 +1,193 @@
+
+
+body {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+
+}
+
+
+/* Jumbotron Header */
+
+.jumbotron {
+	background: url(../img/goldengate.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 600px;
+	margin-bottom: 0;
+
+}
+
+.jumbotron .logo {
+
+	max-width: 400px;
+	max-height: 400px;
+
+}
+
+.jumbotron h1 {
+	color: black;
+	text-align: left;
+
+}
+
+.jumbotron img {
+	vertical-align: left;
+	float: left;
+	
+}
+
+
+/* About Me */
+
+.about {
+	padding: 40px;
+	background-color: #1c1919;
+	margin:0;
+	color: #c0cfbc;
+	font-size: 20px;
+}
+
+.about h2 {
+	color: #a4ced9;
+	
+
+
+}
+
+.about p {
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 40px;
+
+
+}
+
+/* Experience */
+
+.experience {
+	background-color: #eff0f0;
+	margin: 0;
+	padding: 40px;
+	font-size: 16px;
+
+}
+
+.experience h3 {
+	margin: 25px 0 15px 0;
+	font-size: 30px;
+	color: #83a4ad;
+	font-weight: 600;
+
+}
+
+.experience h4 {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+
+
+.panel-default {
+	border: none;
+
+}
+
+.panel-group {
+	margin-bottom: 70px;
+}
+
+.panel-default > .panel-heading {
+	border: none;
+	background-color: #eff0f0;
+}
+
+.panel-default > .panel-body {
+	background-color: #eff0f0;
+	font-size: 18px;
+
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	background-color: #eff0f0;
+	border: none;
+	color: #737475;
+}
+
+.panel a {
+	text-decoration: none;
+}
+
+
+/* Play */
+.play {
+	padding: 40px;
+	background-color: #1c1919;
+	margin:0;
+	color: #c0cfbc;
+	font-size: 20px;
+}
+
+.play h2 {
+	color: #a4ced9;
+}
+
+
+/* Contact */
+.contact {
+	padding: 40px;
+	background-color: #eff0f0;
+	color: #737475;
+	padding-bottom: 80px;
+
+}
+
+.btn-default {
+
+	background-color: #93b9c3;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 200px;
+	height: 60px;
+	margin: 25px 30px;
+	vertical-align: center;
+	font-size: 25px;
+}
+
+.btn-default a {
+	color: #fff;
+}
+
+.contact h2 {
+	color: #1c1919;
+}
+
+.btn-deafult:hover {
+	color: black;
+
+}
+.contact a:hover {
+	text-decoration: none;
+}
+
+/* Footer */
+footer {
+	height: 80px;
+	background-color: #1c1919;
+	border-top-style: solid;
+	border-top-width: .5px;
+	border-top-color: #eff0f0;
+	color: #eff0f0;
+}
+
+footer h4 {
+	display: inline-block;
+	margin: 30px;
+}
+
+
